@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #fefae0;
+    background-color: #004b23;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -21,10 +21,10 @@ main {
     height: 500px;
     margin: auto;
     margin-top: 60px;
-    border-radius: 33px;
-    background: #e9edc9;
-    box-shadow:  -5px 5px 10px #5d5f50,
-                 5px -5px 10px #ffffff;
+    border-radius: 10px;
+    background: linear-gradient(225deg, #004420, #005025);
+box-shadow:  -5px 5px 1px #001e0e,
+             1px -1px 1px #007838;
 }
 
 #display {
@@ -36,8 +36,9 @@ main {
     text-align: center;
     font-size: 30px;
     border-radius: 3px;
-    box-shadow: inset -5px 5px 10px #5d5f50,
-            inset 5px -5px 10px #ffffff;
+    background: linear-gradient(45deg, #e0e5c2, #ffffe6);
+box-shadow:  2px -2px 1px #646656,
+             -1px 1px 1px #ffffff;
             ;
 }
 
@@ -48,12 +49,19 @@ main {
     font-size: 40px;
     color: #000;
     margin: 5px;
+    transition: all 0.3s ease;
     border-radius: 5px;
     border: none;
-    background: linear-gradient(145deg, #d2d5b5, #f9fed7);
-    box-shadow:  2px 2px 3px #c8ccad;
+    background: linear-gradient(225deg, #e0e5c2, #ffffe6);
+box-shadow:  -4px 4px 1px #646656,
+             1px -1px 1px #ffffff;
 }
 
+
+.numeros:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
 .simbolos {
     cursor: pointer;
     width: 80px;
@@ -61,10 +69,17 @@ main {
     font-size: 40px;
     color: #000;
     margin: 5px;
+    transition: all 0.1s ease;
     border-radius: 5px;
     border: none;
-    background: linear-gradient(145deg, #bf9368, #e3ae7b);
-    box-shadow:  2px 2px 3px #b68c63;
+    background: linear-gradient(225deg, #d15404, #f86404);
+box-shadow:  -4px 4px 1px #5d2502,
+             1px -1px 1px #ff9506;
+}
+
+.simbolos:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
 .mode {
