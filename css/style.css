@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #fefae0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 420px;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 33px;
+    background: #e9edc9;
+    box-shadow:  -26px 26px 33px #c8ccad,
+                26px -26px 33px #ffffe5;
+}
+
+#display {
+    width: 360px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 3px;
+    background: #e9edc9;
+    box-shadow: inset -2px 2px 33px #c8ccad
+            ;
+}
+
+.numeros {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    color: #000;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(145deg, #d2d5b5, #f9fed7);
+    box-shadow:  2px 2px 3px #c8ccad;
+}
+
+.simbolos {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    color: #000;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(145deg, #bf9368, #e3ae7b);
+    box-shadow:  2px 2px 3px #b68c63;
+}
+
+.mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
