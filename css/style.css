@@ -93,13 +93,3 @@ i {
   font-size: 2.5rem;
   cursor: pointer;
 }
-.blue{
-    background: #003566;
-    box-shadow: inset 26px 26px 45px #002e58,
-            inset -26px -26px 45px #003c74;
-}
-
-.bi-moon {
-    color: #003566;
-    color: #00203d;
-}
